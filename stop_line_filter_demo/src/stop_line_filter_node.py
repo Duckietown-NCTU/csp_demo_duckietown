@@ -103,7 +103,7 @@ class StopLineFilterNode(object):
                 msg.data = ?????            #If you want to trigger the event at_stop_line, message data must be "true" 
                 
                 
-                print "Event stop line fiter is triggered ? :"+msg.data
+                print "Event stop line fiter is triggered ? :"+str(msg.data)
 
                 self.pub_at_stop_line.publish(msg)
    
